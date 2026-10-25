@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>薄荷音乐 · 拟物黑胶唱机播放器</title>
+<style>
+:root{--ink:#53564f;--dark:#2e3328;--muted:#626956;--cream1:#f7f8eb;--cream2:#ecefe0;--mint1:#a4ccb2;--mint2:#8ebf9f;--deep:#4d7a5f;--darkgreen:#3d614e}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif;color:var(--ink);background:linear-gradient(180deg,var(--cream1),var(--cream2));min-height:100vh}
+.wrap{max-width:880px;margin:0 auto;padding:32px 24px 80px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:48px}
+.logo{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--mint1),var(--deep));display:grid;place-items:center;color:#fff;font-weight:800}
+h1{font-size:40px;color:var(--dark);margin:0 0 8px;line-height:1.2}
+.sub{color:var(--deep);font-weight:600;margin:0 0 24px}
+.hero{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.turntable{width:240px;height:240px;border-radius:50%;background:linear-gradient(150deg,#f9f9e9,#a5ae94 55%,#e0e4d0);display:grid;place-items:center;box-shadow:0 18px 40px rgba(0,0,0,.14)}
+.rim{width:168px;height:168px;border-radius:50%;background:linear-gradient(135deg,#b8c4a1,#f4f5d9 47%,#8c9d7d);display:grid;place-items:center}
+.record{width:150px;height:150px;border-radius:50%;background:radial-gradient(circle,#53564f 8px,#1c1e19 9px);display:grid;place-items:center;position:relative}
+.label{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--mint1),var(--mint2));display:grid;place-items:center;color:#fff;font-size:12px;font-weight:800}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:52px}
+.card{background:var(--cream1);border-radius:22px;padding:22px;box-shadow:-2px 2px 3px #ffffffcc,-3px 4px 6px #777c5d38}
+.card h3{color:var(--dark);margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--muted);font-size:14px;line-height:1.6}
+.cta{display:inline-block;margin-top:36px;background:linear-gradient(135deg,var(--deep),var(--darkgreen));color:#fff;text-decoration:none;font-weight:700;padding:14px 32px;border-radius:999px;box-shadow:0 8px 20px rgba(77,122,95,.35)}
+nav{margin-top:48px;display:flex;gap:20px;flex-wrap:wrap}
+nav a{color:var(--deep);text-decoration:none;font-weight:600;font-size:14px}
+footer{margin-top:64px;color:var(--muted);font-size:12px;line-height:1.8}
+.cta:focus-visible,nav a:focus-visible,footer a:focus-visible{outline:3px solid #2e3328;outline-offset:3px;border-radius:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><div class="logo">薄荷</div><strong>薄荷音乐 Bohe Music</strong></header>
+  <div class="hero">
+    <div class="turntable"><div class="rim"><div class="record"><div class="label">薄荷</div></div></div></div>
+    <div>
+      <h1>把黑胶唱机的体温，<br>装进你的口袋</h1>
+      <p class="sub">为慢下来的耳朵而设计的拟物播放器 · 由 Apple MusicKit 驱动</p>
+      <a class="cta" href="https://apps.apple.com/app/id6826492468">前往 App Store 页面</a>
+    </div>
+  </div>
+  <div class="features">
+    <div class="card"><h3>唱片机拟物交互</h3><p>落针起臂、飞轮惯性、唱臂物理循迹。转速拨杆在 33⅓ 与 45 RPM 之间切换，唱盘随播放状态真实起转与滑停。</p></div>
+    <div class="card"><h3>Apple Music 千万曲库</h3><p>MusicKit 目录搜索、官方榜单、专辑与歌手页面。订阅用户可完整流播 Apple Music 目录；未订阅时可完整播放随 App 内置的 Creative Commons 曲目。</p></div>
+    <div class="card"><h3>四款工业美学机身</h3><p>经典薄荷免费使用；胡桃木纹、曜石黑胶、日式和纸是会员主题。全 App 拟物材质与光泽实时换装。</p></div>
+    <div class="card"><h3>逐句歌词</h3><p>逐句滚动高亮，点击任意句即跳播；内置曲目提供清晰的离线播放体验。</p></div>
+  </div>
+  <nav>
+    <a href="privacy.html">隐私政策</a>
+    <a href="terms.html">用户协议</a>
+    <a href="faq.html">常见问题</a>
+    <a href="mailto:hello@zpad.app">联系我们</a>
+  </nav>
+  <footer>
+    © 2026 薄荷音乐 Bohe Music · Apple Music 与 MusicKit 是 Apple Inc. 的商标，本站与 Apple Inc. 无从属关系。<br>
+    English version: <a href="privacy.html#en" style="color:var(--deep)">Privacy Policy</a> · <a href="terms.html#en" style="color:var(--deep)">Terms of Service</a>
+  </footer>
+</div>
+</body>
+</html>
